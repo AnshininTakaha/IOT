@@ -1,0 +1,20 @@
+{
+    "compiler": {
+        "path": "${system_default}",
+        "prefix": "arm-none-eabi",
+        "makefile": "Makefile",
+        "makeparam": "-j"
+    },
+    "debugger": {
+        "adapter": "OpenOCD",
+        "openocdPath": "D:\\OpenOCD\\OpenOCD-20201228-0.10.0\\bin\\openocd.exe",
+        "openocdOption": "-f interface/cmsis-dap.cfg  -f target/stm32f4x.cfg",
+        "interface": "JTAG",
+        "deviceName": "STM32F429IE",
+        "loadAddress": "0x08000000",
+        "verify": true,
+        "binfile": "build\\IOT.elf"
+    },
+    "general": {},
+    "version": "1.0.0"
+}
