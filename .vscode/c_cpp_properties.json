@@ -25,7 +25,7 @@
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",
             "cppStandard": "c++14",
-            "compilerPath": "C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe"
+            "compilerPath": "C:/Users/zhouzhanhong/.iotlink/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
         }
     ],
     "version": 4
